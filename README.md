@@ -2,31 +2,44 @@
 
 ## Learning Goals
 
-- Learning Goal 1
-- Learning Goal 2
+- Set up local environment.
 
-## Introduction
+## Install Homebrew (Mac Users Only)
 
-A 1-2 sentence summary of what will be covered.
+[Homebrew](https://brew.sh/) is a package manager for macOS. It allows us to
+quickly install a number of programs we will need.
 
-## Topic 1
+### Action Item
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+1. Open the "Terminal" application using "Spotlight Search".
+2. Type
+   `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+   and press `<Enter>`.
+3. Follow the prompts on the screen during the installation (Note: this could
+   take a while.)
+4. After the installation has completed, you may be prompted to run two
+   additional commands to add Homebrew to your PATH. If so, run those two
+   commands in your terminal.
+5. Close the "Terminal" application.
+6. Reopen the "Terminal" application using "Spotlight Search".
 
-## Topic 2
+## Install Adoptium JDK 17
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+We’ll need the JDK for developing and running Java programs.
 
-## Conclusion
+### Action Item
 
-A short one or two paragraph summary of the contents of the lessons, recapping
-the learning goals.
+1. Go to [this link](https://adoptium.net/temurin/releases/?version=17).
+2. Download the file based on your operating system and architecture.
+3. Open the file and follow the instructions to install the JDK.
 
-## Resources
+## Install IntelliJ Community Edition
 
-- [Resource Link 1](example.com)
-- [Resource Link 2](example.com)
+IntelliJ is an IDE for developing Java programs.
+
+### Action Item
+
+1. Open the [IntelliJ Download page](https://www.jetbrains.com/idea/download/).
+2. Pick your OS.
+3. Download the required files using the “Download” button.
+4. Open the file and follow the instructions to install the program.
